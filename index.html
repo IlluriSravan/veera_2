@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimpleInterestCalculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <h1>Simple Interest Calculator</h1>
+        <form id="interestForm">
+            <div id="form1">
+                <div class="arr">
+                <label for="principal">Principal Amount:</label>
+                <input type="number" id="principal" >
+                </div>
+            </div>
+            <div id="form2" >
+                <div class="arr">
+                <label for="rate">Interest Rate (%):</label>
+                <input type="number" id="rate" step="0.01" >
+            </div>
+            </div>
+            <div id="form3" >
+                <div class="arr">
+                <label for="date">Date on which loan taken:</label>
+                <input type="date" id="date">
+            </div>
+            </div>
+            
+            <button type="submit">Calculate Interest</button>
+        </form>
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
